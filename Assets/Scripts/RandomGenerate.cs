@@ -24,9 +24,5 @@ public class RandomGenerate : MonoBehaviour {
 			timer = delayTimer;
 			//Debug.Log(timer);
 		}
-		else if (gameObject.tag == "Reset") 
-		{
-			Destroy(gameObject);
-		}
 	}
 }

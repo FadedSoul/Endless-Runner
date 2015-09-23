@@ -15,9 +15,9 @@ public class Move : MonoBehaviour {
 			transform.position = startTarget.position;
 		}
 
-		if (speed < 20f) 
+		if (speed < 10f) 
 		{
-			speed = speed + 0.01f;
+			speed = 5f;
 			//Debug.Log(speed);
 		}
 	}
